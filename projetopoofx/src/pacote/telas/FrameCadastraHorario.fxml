@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="paneCadastrarHorario" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacote.controllers.CadastraHorarioController">
+   <children>
+      <Label layoutX="263.0" layoutY="47.0" prefHeight="54.0" prefWidth="179.0" text="Cadastrar Horario">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfDia" layoutX="253.0" layoutY="221.0" prefHeight="42.0" prefWidth="73.0" />
+      <TextField fx:id="tfMes" layoutX="253.0" layoutY="301.0" prefHeight="42.0" prefWidth="73.0" />
+      <TextField fx:id="tfAno" layoutX="253.0" layoutY="369.0" prefHeight="42.0" prefWidth="73.0" />
+      <TextField fx:id="tfTelefone" layoutX="253.0" layoutY="152.0" prefHeight="31.0" prefWidth="198.0" />
+      <Label layoutX="166.0" layoutY="152.0" prefHeight="31.0" prefWidth="104.0" text="Telefone:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="234.0" text="Dia:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="302.0" prefHeight="31.0" prefWidth="46.0" text="Mes:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="378.0" prefHeight="24.0" prefWidth="40.0" text="Ano:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCadastraHorario" layoutX="409.0" layoutY="348.0" mnemonicParsing="false" onAction="#cadastraHorario" prefHeight="42.0" prefWidth="185.0" text="Cadastrar Horario">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="tfHora" layoutX="253.0" layoutY="431.0" prefHeight="42.0" prefWidth="73.0" />
+      <Label layoutX="190.0" layoutY="440.0" prefHeight="24.0" prefWidth="57.0" text="Hora:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

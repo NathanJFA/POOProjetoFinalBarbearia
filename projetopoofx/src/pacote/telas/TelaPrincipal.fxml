@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="765.0" prefWidth="1031.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacote.controllers.MainFrameController">
+   <children>
+      <MenuBar prefHeight="40.0" prefWidth="1031.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cliente">
+            <items>
+              <MenuItem fx:id="mniCadastrarCliente" mnemonicParsing="false" onAction="#cadastrarCliente" text="Cadastrar Cliente" />
+              <MenuItem fx:id="mniPesquisarCliente" mnemonicParsing="false" onAction="#pesquisarCliente" text="Pesquisar Cliente" />
+                  <MenuItem fx:id="mniRemoverCliente" mnemonicParsing="false" onAction="#removerCliente" text="Remover Cliente" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Funcionario">
+               <items>
+                  <MenuItem fx:id="mniCadastrarFuncionario" mnemonicParsing="false" onAction="#cadastrarFuncionario" text="Cadastrar Funcionario" />
+                  <MenuItem fx:id="mniPesquisarFuncionario" mnemonicParsing="false" onAction="#pesquisarFuncionario" text="Pesquisar Funcionario" />
+                  <MenuItem fx:id="mniRemoverFuncionario" mnemonicParsing="false" onAction="#removerFuncionario" text="Remover Funcionario" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Horario">
+            <items>
+              <MenuItem fx:id="mniCadastrarHorario" mnemonicParsing="false" onAction="#cadastrarHorario" text="Cadastrar Horarios" />
+                  <MenuItem fx:id="mniListarHorario" mnemonicParsing="false" onAction="#listarHorario" text="Listar Horarios" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Suporte">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Info" />
+               </items>
+            </Menu>
+        </menus>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuBar>
+      <Label layoutX="246.0" layoutY="39.0" prefHeight="131.0" prefWidth="649.0" text="KLStar Barbearia">
+         <font>
+            <Font name="DejaVuMathTeXGyre-Regular" size="49.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="107.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/icon2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <BorderPane fx:id="border" layoutX="1.0" layoutY="166.0" prefHeight="594.0" prefWidth="1031.0">
+         <left>
+            <AnchorPane prefHeight="276.0" prefWidth="112.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="9.0" layoutY="14.0" mnemonicParsing="false" onAction="#cadastrarCliente" prefHeight="50.0" prefWidth="170.0" text="Cadastrar Cliente" />
+                  <Button layoutX="9.0" layoutY="75.0" mnemonicParsing="false" onAction="#pesquisarCliente" prefHeight="50.0" prefWidth="170.0" text="Pesquisar Cliente" />
+                  <Button layoutX="10.0" layoutY="138.0" mnemonicParsing="false" onAction="#removerCliente" prefHeight="50.0" prefWidth="170.0" text="Remover Cliente" />
+                  <Button layoutX="10.0" layoutY="198.0" mnemonicParsing="false" onAction="#cadastrarFuncionario" prefHeight="50.0" prefWidth="170.0" text="Cadastrar Funcionario" />
+                  <Button layoutX="9.0" layoutY="261.0" mnemonicParsing="false" onAction="#pesquisarFuncionario" prefHeight="50.0" prefWidth="170.0" text="Pesquisar Funcionario" />
+                  <Button layoutX="10.0" layoutY="323.0" mnemonicParsing="false" onAction="#removerFuncionario" prefHeight="50.0" prefWidth="170.0" text="Remover Funcionario" />
+                  <Button layoutX="9.0" layoutY="384.0" mnemonicParsing="false" onAction="#cadastrarHorario" prefHeight="50.0" prefWidth="170.0" text="Cadastrar Horario" />
+                  <Button layoutX="9.0" layoutY="444.0" mnemonicParsing="false" onAction="#listarHorario" prefHeight="50.0" prefWidth="170.0" text="Listar Horario" />
+                  <Button layoutX="10.0" layoutY="505.0" mnemonicParsing="false" onAction="#sair" prefHeight="50.0" prefWidth="170.0" text="Sair" />
+               </children>
+            </AnchorPane>
+         </left>
+         <bottom>
+            <Label prefHeight="39.0" prefWidth="178.0" text="POO - Projeto Barbearia" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <AnchorPane fx:id="anchor" accessibleRole="BUTTON" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

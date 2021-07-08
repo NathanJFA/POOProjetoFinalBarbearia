@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    //"version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MainFrameController",
+            "request": "launch",
+            "mainClass": "pacote.controllers.MainFrameController",
+            "projectName": "POOProjetoFinalBarbearia_f1ecbd07"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainFrameController",
+            "request": "launch",
+            "vmArgs": "--module-path /home/nathanjfa/Documentos/ProjetosGitHub/POOProjetoFinalBarbearia/projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "pacote.controllers.MainFrameController",
+            "projectName": "projetopoofx_84754dfd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainFrameController",
+            "request": "launch",
+            "vmArgs": "--module-path /home/nathanjfa/Documentos/projetoPOOcomJX/projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "pacote.controllers.MainFrameController",
+            "projectName": "projetopoofx"
+        }
+    ]
+}

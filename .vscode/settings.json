@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx-swt.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx.web.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx.swing.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx.media.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx.graphics.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx.fxml.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx.controls.jar",
+        "projetopoofx/lib/javafx-sdk-11.0.2LINUX/lib/javafx.base.jar"
+    ]
+}
